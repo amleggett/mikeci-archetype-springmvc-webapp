@@ -1,0 +1,58 @@
+html {
+	overflow: auto;
+	overflow-x: auto;
+	overflow-y: auto;
+}
+
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "gill sans", arial, sans-serif;
+	font-size: 10pt;  
+}
+
+.header {
+	background: white top left;
+	margin: 0px;
+}
+
+.header  .logo{
+  	background: url('../images/mike-app-header.png') no-repeat bottom left;
+  	height: 104px;
+ 	 width: 800px;
+  	padding: 0px;
+  	margin: 0px 0px 8px 0px;
+}
+
+.min-viewpanel {
+    position: relative;
+	width: 800px;
+    margin: 0px auto;
+}
+
+.content {
+	width: 320px;
+	margin-top: 50px;
+	margin-left: 240px;
+	margin-right: 240px;
+	height: 100px;
+	border: 1px solid #660000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

@@ -1,41 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.mikeci</groupId>
-  <artifactId>mikeci-archetype-springmvc-webapp</artifactId>
-  <version>0.1.0-SNAPSHOT</version>
-  <packaging>maven-archetype</packaging>
-  <name>MikeCI Spring-Mvc web application archetype</name>
-  <scm>
-  	<connection>scm:git:ssh://github.com/amleggett/${artifactId}.git</connection>
-  	<developerConnection>scm:git:git@github.com/amleggett/${artifactId}.git</developerConnection>
-  	<url>http://github.com/amleggett/mikeci-archetype-springmvc-webapp</url>
-  </scm>
-  <distributionManagement>
-  	<repository>
-  		<id>release-repo</id>
-  		<url>file:///home/leggetta/foo/release-repository</url>
-  	</repository>
-  	<snapshotRepository>
-  		<id>snapshot-repo</id>
-  		<url>file:///home/leggetta/foo/snapshot-repository</url>
-  	</snapshotRepository>
-  </distributionManagement>
-  <build>
-    <extensions>
-      <extension>
-        <groupId>org.apache.maven.archetype</groupId>
-        <artifactId>archetype-packaging</artifactId>
-        <version>2.0-alpha-4</version>
-      </extension>
-    </extensions>
-    <plugins>
-      <plugin>
-        <artifactId>maven-archetype-plugin</artifactId>
-        <version>2.0-alpha-4</version>
-        <extensions>true</extensions>
-      </plugin>
-    </plugins>
-  </build>
+<project
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+	xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.mikeci</groupId>
+	<artifactId>mikeci-archetype-springmvc-webapp</artifactId>
+	<version>0.1.0-SNAPSHOT</version>
+	<packaging>maven-archetype</packaging>
+	<name>MikeCI Spring-Mvc web application archetype</name>
+	<scm>
+		<connection>scm:git:ssh://github.com/amleggett/${artifactId}.git</connection>
+		<developerConnection>scm:git:git@github.com/amleggett/${artifactId}.git</developerConnection>
+		<url>http://github.com/amleggett/mikeci-archetype-springmvc-webapp</url>
+	</scm>
+	<distributionManagement>
+		<repository>
+			<id>release-repo</id>
+			<url>file:///home/leggetta/foo/release-repository</url>
+		</repository>
+		<snapshotRepository>
+			<id>snapshot-repo</id>
+			<url>file:///home/leggetta/foo/snapshot-repository</url>
+		</snapshotRepository>
+	</distributionManagement>
+	<build>
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.archetype</groupId>
+				<artifactId>archetype-packaging</artifactId>
+				<version>2.0-alpha-4</version>
+			</extension>
+		</extensions>
+		<plugins>
+			<plugin>
+				<artifactId>maven-archetype-plugin</artifactId>
+				<version>2.0-alpha-4</version>
+				<extensions>true</extensions>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.0-beta-9</version>
+			</plugin>
+		</plugins>
+	</build>
 </project>

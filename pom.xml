@@ -9,9 +9,19 @@
   <name>MikeCI Spring-Mvc web application archetype</name>
   <scm>
   	<connection>scm:git:ssh://github.com/amleggett/${artifactId}.git</connection>
-  	<developerConnection>scm:git:ssh://github.com/amleggett/${artifactId}.git</developerConnection>
+  	<developerConnection>scm:git:git@github.com/amleggett/${artifactId}.git</developerConnection>
   	<url>http://github.com/amleggett/mikeci-archetype-springmvc-webapp</url>
   </scm>
+  <distributionManagement>
+  	<repository>
+  		<id>release-repo</id>
+  		<url>file:///home/leggetta/foo/release-repository</url>
+  	</repository>
+  	<snapshotRepository>
+  		<id>snapshot-repo</id>
+  		<url>file:///home/leggetta/foo/snapshot-repository</url>
+  	</snapshotRepository>
+  </distributionManagement>
   <build>
     <extensions>
       <extension>

@@ -9,7 +9,7 @@
 	<scm>
 		<connection>scm:git:ssh://github.com/amleggett/${artifactId}.git</connection>
 		<developerConnection>scm:git:ssh://git@github.com/amleggett/${artifactId}.git</developerConnection>
-		<url>http://github.com/amleggett/mikeci-archetype-springmvc-webapp</url>
+		<url>http://github.com/amleggett/${artifactId}</url>
 	</scm>
 	<distributionManagement>
 		<repository>

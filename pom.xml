@@ -20,7 +20,7 @@ limitations under the License.
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.mikeci</groupId>
 	<artifactId>mikeci-archetype-springmvc-webapp</artifactId>
-	<version>0.1.3-SNAPSHOT</version>
+	<version>0.1.3</version>
 	<packaging>maven-archetype</packaging>
 	<name>MikeCI Spring-Mvc web application archetype</name>
 	<scm>

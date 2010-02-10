@@ -1,0 +1,19 @@
+#set( $symbol_dollar = '$' )  
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project name="${symbol_dollar}{project.name}">
+  <bannerLeft>
+    <name>${symbol_dollar}{project.name}</name>
+    <src>http://maven.apache.org/images/apache-maven-project.png</src>
+    <href>http://maven.apache.org/</href>
+  </bannerLeft>
+  <bannerRight>
+    <src>http://maven.apache.org/images/maven-small.gif</src>
+  </bannerRight>
+  <body>
+
+    <menu name="${symbol_dollar}{project.name}">
+      <item name="Home" href="index.html"/>
+    </menu>
+    <menu ref="reports"/>
+  </body>
+</project>

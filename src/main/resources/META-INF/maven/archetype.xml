@@ -17,5 +17,6 @@
   </resources>
   <siteResources>
     <resource>src/site/apt/index.apt</resource>
+    <resource>src/site/site.xml</resource>
   </siteResources>
 </archetype>

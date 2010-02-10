@@ -26,10 +26,11 @@
         <include>**/*.java</include>
       </includes>
     </fileSet>
-    <fileSet encoding="UTF-8">
+    <fileSet filtered="true" encoding="UTF-8">
       <directory>src/site</directory>
       <includes>
         <include>**/*.apt</include>
+        <include>site.xml</include>
       </includes>
     </fileSet>
   </fileSets>
